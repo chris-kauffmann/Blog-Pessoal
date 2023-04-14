@@ -1,4 +1,4 @@
-package com.example.blogpessoal;
+package com.generation.blogpessoal;
 
 
 import org.springframework.boot.SpringApplication;
