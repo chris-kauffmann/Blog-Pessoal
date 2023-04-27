@@ -25,7 +25,7 @@ import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/postagens")
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+@CrossOrigin(origins = "*", allowedHeaders = "*")//indica que a Classe Controller permitirá receber requisiçoes fora do dominio a qual ela pertence
 public class PostagemController {
 
 	@Autowired
